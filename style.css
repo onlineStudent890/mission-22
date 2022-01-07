@@ -1,0 +1,132 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+header div{
+    width: 50%;
+    padding: 20px;
+}
+header div img{
+    width: 70%;
+    margin-right: auto;
+}
+.orange{
+    color: orangered;
+}
+.button{
+    background-color: red;
+    padding: 1% 2%;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px gray;
+}
+header div p{
+    font-size: 20px;
+}
+header div h1{
+    font-size: 40px;
+    border-left: 2px solid orangered;
+    padding-left: 8px;
+}
+.mission{
+    text-align: center;
+    font-size: 40px;
+}
+.missions{
+    width: 30%;
+    text-align: justify;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 25px;
+
+}
+.mission-main{
+    display: flex;
+    padding: 0 100px;
+}
+.mission-img{
+    height: 120px;
+    width: 120px;
+    display: block;
+}
+#mission{
+    background-color:paleturquoise;
+
+}
+#vission{
+    background-color: palevioletred;
+}
+#goals{
+    background-color: peru;
+}
+.development{
+    display: flex;
+    padding: 100px;
+}
+.development img{
+    width: 100%;
+}
+.development-img{
+    width: 30%;
+    margin-right: 20px;
+}
+.development-content{
+    margin-left: 40px;
+    width: 60%;
+    padding: 20px;
+}
+.development-content h1{
+    font-size: 40px;
+}
+.common-class{
+    width: 80%;
+}
+
+.app-img{
+    width: 50%;
+    margin-right: 20px;
+}
+.app-content{
+    width: 50%;
+    padding: 20px;
+}
+.go-corona{
+    font-size: 40px;
+}
+.app-img img{
+    width: 70%;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    box-shadow: 5px 5px 5px grey;
+}
+.address{
+    width: 50%;
+    text-align: center;
+}
+
+.form{
+    width: 50%;
+}
+.form input{
+    width: 80%;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+footer p{
+    font-size: smaller;
+}
